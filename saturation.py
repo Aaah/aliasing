@@ -2,6 +2,7 @@ from pylab import *
 from numpy import *
 
 class Saturator:
+    """Basic DRC style saturation with parametric slope and threshold."""
     def __init__(self):
         self.threshold = 1.0
         self.ratio = 1.0
